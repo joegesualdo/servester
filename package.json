@@ -1,6 +1,6 @@
 {
   "name": "servester",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Quickly setup servers and asset pipelines",
   "main": "index.js",
   "scripts": {
