@@ -1,7 +1,7 @@
 {
   "name": "servester",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Quickly setup servers and asset pipelines",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

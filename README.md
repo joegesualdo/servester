@@ -1,5 +1,10 @@
 ## Servester
-> Easiest way to install servers for application types (E.g Reactjs)
+> Quickly setup servers and asset pipelines.
+
+## Why?
+Sometimes you just want to write language specific code and not have to deal with setting up an asset pipeline. That's where Servester comes in.
+#### Example
+Start writing and previewing Reactjs within 10 seconds. No more setting up browserify.
 
 ## Install
 ```
@@ -33,7 +38,6 @@ $ npm start
 ## <a name="application-types"></a>Supported Application Types
 ### Reactjs 
 > Creates application structure and server for Reactjs
-#### Create
 ```
 $ servester react my-react-app
 ```
@@ -41,7 +45,6 @@ $ servester react my-react-app
 ### Static 
 > Creates application structure and server for static files (E.g html, js, css, etc)
 
-#### Create server
 ```
-$ servester react my-react-app
+$ servester static my-react-app
 ```
