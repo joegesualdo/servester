@@ -30,10 +30,9 @@ $ cd my-react-app
 ```
 $ npm start 
 ```
-3. Confirm server is running at [localhost:8080](localhost:8080)
+3. Confirm server is running at [localhost:8080/index.html](http://localhost:8080/index.html)
 4. Write Reactjs code in `my-react-app/src/scripts/app.jsx`
-5. See your changes at  [localhost:8080](localhost:8080)
-
+5. See your changes at  [localhost:8080/index.html](http://localhost:8080/index.html)
 
 ## <a name="application-types"></a>Supported Application Types
 ### Reactjs 
