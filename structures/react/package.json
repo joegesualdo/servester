@@ -57,11 +57,12 @@
     "c3": "0.4.10"
   },
   "scripts": {
-    "build": "webpack -d --display-reasons --display-chunks --progress",
+    "dist": "./node_modules/webpack/bin/webpack.js -p --progress",
+    "build": "./node_modules/webpack/bin/webpack.js -d --display-reasons --display-chunks --progress",
     "watch": "./node_modules/webpack/bin/webpack.js --progress --colors --watch",
     "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "lint": "./node_modules/eslint/bin/eslint.js . --ext .js --ext .jsx --cache",
-    "test": "CONFIG=runtime.webpack.config.babel.js BABEL_DISABLE_CACHE=1 NODE_ENV=AVA node_modules/ava/cli.js --no-cache --require babel-register **/**/test.js --watch"
+    "test": "CONFIG=$(pwd)/runtime.webpack.config.babel.js BABEL_DISABLE_CACHE=1 NODE_ENV=AVA node_modules/ava/cli.js --no-cache --require babel-register **/**/test.js --watch"
   },
   "ava": {
     "require": [
